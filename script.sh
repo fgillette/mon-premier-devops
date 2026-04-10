@@ -6,7 +6,7 @@ echo "🚀 Création du dossier : $NOM_DOSSIER"
 mkdir -p $NOM_DOSSIER
 
 # 2. Création d'un fichier de log
-echo "📝 Initialisation du fichier de log..."
+echo "📝 Initialisation du fichier de log Rapport.txt..."
 echo "Script lancé par : $USER" > $NOM_DOSSIER/rapport.txt
 
 # 3. Test réseau rapide
