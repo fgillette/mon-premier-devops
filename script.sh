@@ -10,7 +10,7 @@ echo "📝 Initialisation du fichier de log Rapport.txt..."
 echo "Script lancé par : $USER" > $NOM_DOSSIER/rapport.txt
 
 # 3. Test réseau rapide
-echo "🌐 Vérification de la connexion internet..."
+echo "🌐 Vérification de la connexion internet via Google.com..."
 ping -c 2 google.com >> $NOM_DOSSIER/rapport.txt
 
 # 4. Affichage du résultat
